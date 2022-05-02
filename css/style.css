@@ -1,0 +1,207 @@
+#titulo {
+    color: aquamarine;
+} /* solo para ID se utiliza #*/
+
+p.especial {
+    color: cyan;
+} /* solo se utiliza . para la class*/
+
+
+p.texto{
+    color: chocolate;
+}
+
+div p {
+   color: crimson; 
+} 
+
+div h2, div h3 {
+    color: lightgreen;
+} /* se utiliza , mas espacio para agregar un a nueva función que tenga los mismos valores del {}*/
+
+* {
+    font-size: 20px;
+    /*color: black;*/
+} 
+/* 
+se utiliza * para decir que es todo y este va a afectar a todo lo que no tenga función pero 
+si ya tiene función no lo va a afectar
+*/
+
+/*comentario*/
+
+.color {
+    color:dodgerblue;
+}
+
+/*
+.color {
+    color: #000;
+}
+
+.color {
+    color: rgb(red, green, blue);
+}
+
+.color {
+    color: rgb(0, 0, 0)
+}
+*/ /* diferentes tippos de color que podemos utilizar usando diferentes formas como #000000 o rgb(0, 0, 0)*/
+
+
+.borde {
+   /* border: 5px cornflowerblue dotted; */
+    /*
+      dotted
+      dashed
+      solid
+      double
+      groove
+      ridget
+      inset
+      outset
+      none
+      hidden
+    */
+    border-style: solid;
+    border-color: aquamarine;
+    border-radius: 5px;
+    border-width: 5px;
+
+}
+
+#fondo {
+    background-color: aquamarine;
+    opacity: 0.3;
+    height: 400px;
+    background-image: url("img/Kirby.png");
+    background-size: cover;
+}
+
+
+.margen {
+    background-color: indigo;
+    margin: 15px;
+    padding: 35px 15px 5px;
+    border: groove 5px aquamarine;
+    height: 200px;
+    width: 30px;
+    overflow: scroll;
+    outline: 5px dotted crimson;
+}
+
+.text {
+    font-family: 'Oleo Script Swash Caps', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px aqua;
+    
+}
+
+
+/* el orden es muy importante para poner los colores a los links*/
+a:link {
+    color: deepskyblue;
+}
+
+a:visited {
+    color: coral;
+}
+
+a:hover {
+    color: darkorchid;
+}
+
+a:active {
+    color: red;
+}
+
+
+ul {
+    background-color: burlywood;
+    list-style-type: lower-greek;
+    padding-left: 2%;
+    /*list-style-position: inside;*/
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 2px black;
+    padding: 5px;
+}
+
+th {
+    background-size: cover;
+    background-image: url('img/Kirby.png');
+    color: darkblue;
+    text-align: center;
+}
+
+tr:nth-child(even)/*Even significa Impar*/ {
+    background-color: cornflowerblue;
+}
+
+
+tr:hover {
+    background-color: crimson;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    /*display: none;*/
+    /*visibility: hidden;*/
+    max-width: 300px; /*ancho maximo, no importa si achicamos el ordenador va seguir sindo de el mismo ancho*/
+    background-color: fuchsia;
+}
+
+.inline {
+    display: inline;
+}
+
+
+#position {
+    position: relative;
+    left: 20px;
+    /*top: 5px;*/
+}
+
+.iz {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.container {
+    height: 200px;
+}
+.de {
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+.column {
+    margin: 0 ;
+    padding: 10px 0px;
+    width: 33.3%;
+    height: 33.3%;
+}
+
+.inline-block {
+    display: inline-block; /*Con inline-block le podemos poner altura y ancho. Pero con solo la propiedad de Inline no podemos hacer esto*/
+    height: 55px;
+    background-color: dimgray;
+}
+
+.center {
+    padding: 50px 0;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+}

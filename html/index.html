@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Primera web</title>
+    <style>
+        table, th, td {
+            border: 2px solid green; 
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+       <thead>
+        <tr>
+            <th>Pokemon</th>
+            <th>Tipo</th>
+            <th>Item</th>
+        </tr>
+       </thead>
+        <tbody>
+            <tr>
+                <td>Charmander</td>
+                <td>Fuego</td>
+                <td>Ninguno</td>
+            </tr>
+            <tr>
+                <td>Charmeleon</td>
+                <td>Fuego</td>
+                <td>Ninguno</td>
+            </tr>
+            <tr>
+                <td>Charizard</td>
+                <td>Fuego</td>
+                <td>Plato De Fuego</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Primera Generación</td>
+            <td>Fuego</td>
+            <td>N</td>
+        </tfoot>
+    </table>
+
+
+
+    <!--ul es la Lista no Ordenada que aparce con un punto negro-->
+   <ul>
+       <li>Elemento 1</li>
+       <li>Elemento 2</li>
+       <li>Elemento 3</li>
+       <li>Elemento 4</li>
+   </ul>
+   <!-- ol es la Lista Ordenada-->
+   <ol>
+       <li value="10">Elemento</li>
+       <li>Elemento</li>
+       <li>Elemento</li>
+       <li>Elemento</li>
+       <li>
+           <ol>
+               <li style="list-style-type: upper-latin;">Charizard</li>
+               <li style="list-style-type: upper-latin;">Charmander</li>
+               <li style="list-style-type: upper-latin;">charmeleon</li>
+           </ol>
+           <ul>
+               <li style="list-style-type: georgian;">Xerneas</li>
+               <li style="list-style-type: georgian;">Vaporeon</li>
+               <li style="list-style-type: georgian;">Umbreon</li>
+           </ul>
+       </li>
+   </ol>
+
+
+
+    <form action="/formulario" method="GET">
+        <label for="nombre">Nombre:</label>
+        <input value="Pepito" type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input value="Perez" type="text" id="apellido" name="apellido" placeholder="Apellido/Segundo Nombre"/>
+        <br>
+        <label for="comentario">Comentario:</label><br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="Ingresar su Comentario" name="comentario" >!Que Buena Pagina!</textarea>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Restaurar</button>
+        <button type="button">boton </button>
+    </form>
+
+    <h1>Primer Head</h1>
+    <h2>Segundo head</h2>
+    <h3>tercer Head</h3>
+    <h4>cuarto Head</h4>
+    <h5>quinto Head</h5>
+    <h6>diebuchas </h6>
+    <p>zygarde</p>
+    <p>charmander</p>
+    <hr>
+    <h3>Pokemons</h3>
+    <p>Primera Generación</p>
+    <p>Segunda Generación</p>
+    <!--Comentario-->
+    <p>Este texto es <span style="color: aqua">Muy largo</span><br>
+        nos va a mostrar<br><br>
+        el uso de la etiquita span
+    </p>
+    <a target="_blank"href="https://play.pokemonshowdown.com/">Ir a Pokemon Showdown</a><br>
+    <img src="img/Apostoles.png" width="1000" height="600"/>
+</body>
+</html>
